@@ -36,10 +36,8 @@ function hotelCost(day) {
 }
 
 // megaFriend Section Start
-var allFriend = [hasan, saidur, ismailhossen, turag, rana];
-for (var i = 0; i < allFriend.length; i++) {
-    var element = allFriend[i];
-    if (element > 0) {
-        var e
-    }
+
+function megaFriend(big) {
+    var allFriend = big[hasan, saidur, ismailhossen, turag, rana];
+    return allFriend;
 }
