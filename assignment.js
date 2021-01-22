@@ -1,10 +1,10 @@
+/* https://github.com/hasan178821/assignment-js/blob/main/assignment.js */
+
 // kilometerToMeter Section Start 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
 }
-var resultMeter = kilometerToMeter(20);
-console.log(resultMeter);
 
 
 // budgetCalculator Section Start
@@ -12,8 +12,6 @@ function budgetCalculator(watch, mobile, laptop) {
     var sum = watch * 50 + mobile * 100 + laptop * 500;
     return sum;
 }
-var allGadgetPrice = budgetCalculator(6, 4, 2);
-console.log(allGadgetPrice);
 
 
 // hotelCost Section Start
