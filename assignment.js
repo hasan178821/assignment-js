@@ -35,9 +35,16 @@ function hotelCost(day) {
     return sum;
 }
 
+
 // megaFriend Section Start
+var allFriends = [hasan, sayed, sohel, ismail, rana, liton];
 
 function megaFriend(big) {
-    var allFriend = big[hasan, saidur, ismailhossen, turag, rana];
-    return allFriend;
+    var bigName = big[0];
+    for (var i = 0; i < big.length; i++) {
+        if (big[i].length > bigName.length) {
+            bigName = big[i];
+        }
+    }
+    return bigName;
 }
